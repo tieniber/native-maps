@@ -1,0 +1,40 @@
+{
+  "name": "native-maps",
+  "widgetName": "NativeMaps",
+  "version": "1.0.0",
+  "description": "My widget description",
+  "copyright": "Mendix 2019",
+  "author": "Eric Tieniber",
+  "config": {
+    "widgetPath": "/Volumes/[C] Windows 10/Mendix/Internal/Maps/widgets",
+    "projectPath": "/Volumes/[C] Windows 10/Mendix/Internal/Maps/"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "npm run dev",
+    "build": "pluggable-widgets-tools build:ts:native",
+    "dev": "pluggable-widgets-tools start:ts:native",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:ts:native"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Eric Tieniber/native-maps/issues"
+  },
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^8.7.0",
+    "@types/big.js": "^4.0.5",
+    "@types/classnames": "^2.2.6",
+    "@types/jest": "^24.0.0",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-native": "^0.57.56"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "react-native-maps": "0.27.0",
+    "react-native-geocoder": "0.5.0"
+  }
+}
