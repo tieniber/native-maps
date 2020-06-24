@@ -1,17 +1,2 @@
-## NativeMaps
-[My widget description]
-
-## Features
-[feature highlights]
-
-## Usage
-[step by step instructions]
-
-## Demo project
-[link to sandbox]
-
-## Issues, suggestions and feature requests
-[link to GitHub issues]
-
-## Development and contribution
-[specify contribute]
+## Native Maps
+Show locations on an interactive map. Lists of map markers are fetched from a Mendix data source.
